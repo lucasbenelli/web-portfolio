@@ -1,0 +1,203 @@
+<head>
+    <title>Lucas' Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./projectpage.css">
+</head>
+
+<nav>
+    <a class="nav-logo" href="homepage.html">LB</a>
+    <ul class="nav-links" id="navLinks">
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="projectpage.html" class="active">Projects</a></li>
+        <li><a href="aboutpage.html">About</a></li>
+    </ul>
+    <button class="hamburger" onclick="document.getElementById('navLinks').classList.toggle('open')">
+        <span></span><span></span><span></span>
+    </button>
+</nav>
+
+<div class="page-header">
+    <span class="page-header-label">My Work</span>
+    <h1 class="page-title">All <span>Projects</span></h1>
+    <p class="page-subtitle">Here's are some websites I've built in Web Design class.</p>
+</div>
+
+<div class="projects-wrapper">
+
+    <div class="project-item">
+        <div class="project-img">
+            <img src="./are you a nice person.png" alt="Are You a Nice Person?"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+            <div class="project-placeholder" style="display:none"></div>
+        </div>
+        <div class="project-info">
+            <div class="proj-number">01</div>
+            <div class="proj-title">Are You a Nice Person?</div>
+            <p class="proj-desc">Type two different answers and get a finalized result telling you what kind of juice
+                you are. Four different answers = four different juice flavors. Made this one as a fun JS exercise.
+            <br><a href="https://codepen.io/lucasbenelli/full/ByyWxpW" target="_blank">Click Me!</a></p>
+            <div class="proj-tags">
+                <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-item reverse">
+        <div class="project-img">
+            <img src="./helicopter lebron.png" alt="Helicopter LeBron"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+            <div class="project-placeholder" style="display:none"></div>
+        </div>
+        <div class="project-info">
+            <div class="proj-number">02</div>
+            <div class="proj-title">Helicopter LeBron</div>
+            <p class="proj-desc">Click buttons to see if the Lakers win or lose depending on whether LeBron shows up
+                late. Inspired by real events. This one uses button click events and conditional logic.
+            <br><a href="https://codepen.io/lucasbenelli/full/WbNKZKp" target="_blank">Click Me!</a></p>
+            <div class="proj-tags">
+                <span class="tag">JavaScript</span><span class="tag">DOM</span><span class="tag">Events</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-item">
+        <div class="project-img">
+            <img src="./large photo of code.png" alt="Brand Logos"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+            <div class="project-placeholder" style="display:none"></div>
+        </div>
+        <div class="project-info">
+            <div class="proj-number">03</div>
+            <div class="proj-title">Brand Logos Page</div>
+            <p class="proj-desc">My very first HTML + CSS project. Click any logo and get redirected to that brand's
+                homepage. Simple, but it's where it all started for me.
+            <br><a href="https://codepen.io/lucasbenelli/pen/MYgxpwg" target="_blank">Click Me!</a></p>
+            
+            <div class="proj-tags">
+                <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">First Project</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-item reverse">
+        <div class="project-img">
+            <img src="./mario game with code.png" alt="Mario Game"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+            <div class="project-placeholder" style="display:none"></div>
+        </div>
+        <div class="project-info">
+            <div class="proj-number">04</div>
+            <div class="proj-title">Mario Game</div>
+            <p class="proj-desc">A browser game where you can make Mario jump, go down, change colors, and get bigger.
+                Using HTML, CSS, and JavaScript together made this a big step up in complexity.
+            <br><a href="https://codepen.io/lucasbenelli/full/emYGexQ" target="_blank">Click Me!</a></p>
+            <div class="proj-tags">
+                <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span
+                    class="tag">Game</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-item">
+        <div class="project-img">
+            <img src="./moodJS.png" alt="MoodJS"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+            <div class="project-placeholder" style="display:none"></div>
+        </div>
+        <div class="project-info">
+            <div class="proj-number">05</div>
+            <div class="proj-title">MoodJS — Array Practice</div>
+            <p class="proj-desc">Learned how to use Array Data in JavaScript to display inputs in the console log.
+                Change things around and it still runs correctly. Got way better at JS from this one.</p>
+            <div class="proj-tags">
+                <span class="tag">JavaScript</span><span class="tag">Arrays</span><span class="tag">Console</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="skills-section">
+    <div class="skills-inner">
+        <h2 class="skills-title">Skills I've <span>Picked Up</span></h2>
+        <div class="skills-grid">
+            <div class="skill-pill">
+                <div class="skill-dot"></div><span class="skill-name">HTML5</span>
+            </div>
+            <div class="skill-pill">
+                <div class="skill-dot"></div><span class="skill-name">CSS3</span>
+            </div>
+            <div class="skill-pill">
+                <div class="skill-dot"></div><span class="skill-name">JavaScript</span>
+            </div>
+            <div class="skill-pill">
+                <div class="skill-dot"></div><span class="skill-name">CSS Grid</span>
+            </div>
+            <div class="skill-pill">
+                <div class="skill-dot"></div><span class="skill-name">Flexbox</span>
+            </div>
+            <div class="skill-pill">
+                <div class="skill-dot"></div><span class="skill-name">DOM Manipulation</span>
+            </div>
+            <div class="skill-pill">
+                <div class="skill-dot"></div><span class="skill-name">Responsive Design</span>
+            </div>
+            <div class="skill-pill">
+                <div class="skill-dot"></div><span class="skill-name">JS Arrays</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-socials">
+        <a href="https://www.instagram.com/_lucasbenelli09/" target="_blank">Instagram</a>
+        <a href="https://www.tiktok.com/@_lucasbenelli" target="_blank">TikTok</a>
+        <a href="https://www.linkedin.com/in/lucas-benelli-menezes-819723234" target="_blank">LinkedIn</a>
+        <a href="https://sportsrecruits.com/athlete/lucas_benelli_menezes" target="_blank">Soccer Recruitment</a>
+    </div>
+    <p>© 2024 Lucas Benelli-Menezes · Built by hand in HTML, CSS & JS</p>
+</footer>
+
+<!-- Code injected by live-server -->
+<script>
+    // <![CDATA[  <-- For SVG support
+    if ('WebSocket' in window) {
+        (function () {
+            function refreshCSS() {
+                var sheets = [].slice.call(document.getElementsByTagName("link"));
+                var head = document.getElementsByTagName("head")[0];
+                for (var i = 0; i < sheets.length; ++i) {
+                    var elem = sheets[i];
+                    var parent = elem.parentElement || head;
+                    parent.removeChild(elem);
+                    var rel = elem.rel;
+                    if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                        var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                        elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                    }
+                    parent.appendChild(elem);
+                }
+            }
+            var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+            var address = protocol + window.location.host + window.location.pathname + '/ws';
+            var socket = new WebSocket(address);
+            socket.onmessage = function (msg) {
+                if (msg.data == 'reload') window.location.reload();
+                else if (msg.data == 'refreshcss') refreshCSS();
+            };
+            if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                console.log('Live reload enabled.');
+                sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+            }
+        })();
+    }
+    else {
+        console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+    }
+    // ]]>
+</script>
+</body>
+
+</html>
